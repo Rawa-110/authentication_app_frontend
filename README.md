@@ -1,73 +1,36 @@
-# authentication_app_frontend
-Modern authentication frontend built with React, providing secure login and registration UI integrated with backend API.
-# 🔐 Authentication Frontend App
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## 📌 Overview
-A modern and responsive authentication frontend application built with React. It provides secure user login, registration, and session management, fully integrated with a backend authentication system.
+## Getting Started
 
----
-
-## 🚀 Features
-- User registration and login UI
-- Secure authentication flow
-- Session handling
-- Responsive design (Mobile + Desktop)
-- API integration with backend
-- Clean and reusable components
-
----
-
-## 🛠️ Tech Stack
-- React.js
-- JavaScript (ES6+)
-- Axios / Fetch API
-- HTML5 / CSS3
-
----
-
-## 📁 Project Structure
-```text
-authentication_app_frontend/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── App.js
-│
-├── public/
-├── package.json
-└── README.md
-```
-
----
-
-## ▶️ Installation & Run
+First, run the development server:
 
 ```bash
-npm install
-npm start
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🔗 Backend Integration
-This frontend connects to a secure authentication backend API for:
-- Login
-- Registration
-- Token-based authentication
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## 📸 UI Preview
-(Add screenshots here)
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-## 👨‍💻 Author
-Rawa Althobaity
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## 📌 Notes
-This project follows modern frontend development practices and is ready for integration with scalable backend systems.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
